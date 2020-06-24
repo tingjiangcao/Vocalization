@@ -41,6 +41,10 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor colorWithHexString:@"#F5F5F5"];
     
+    //git的一个测试
+    
+    
+    
     //创建主tableView
     self.tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStyleInsetGrouped];
     [self.view addSubview:self.tableView];
