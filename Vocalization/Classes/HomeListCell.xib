@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="350" id="KGk-i7-Jjw" customClass="HomeListCell">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_list2" translatesAutoresizingMaskIntoConstraints="NO" id="hPL-4n-aj9">
+                        <rect key="frame" x="20" y="13" width="22" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="22" id="cZP-LI-tSC"/>
+                            <constraint firstAttribute="height" constant="24" id="ylc-tw-JYL"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="home_list0" translatesAutoresizingMaskIntoConstraints="NO" id="NQs-F8-H80">
+                        <rect key="frame" x="57" y="13" width="1" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="daV-Nn-K30"/>
+                            <constraint firstAttribute="height" constant="23" id="jgT-ZJ-gke"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请问洗手间在哪里？" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FhF-d7-0DF">
+                        <rect key="frame" x="79" y="15" width="246" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="y7T-dc-0H7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                        <color key="textColor" white="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Zv-XT-G94">
+                        <rect key="frame" x="324" y="4" width="39" height="41"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="41" id="hrC-MX-bNX"/>
+                            <constraint firstAttribute="width" constant="39" id="jMA-Yg-2yD"/>
+                        </constraints>
+                        <state key="normal" image="home_list1"/>
+                        <connections>
+                            <action selector="playClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Xt5-xM-5SG"/>
+                        </connections>
+                    </button>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p4l-mE-gN6">
+                        <rect key="frame" x="0.0" y="49" width="374" height="1"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="0.95534567636986301" alpha="0.94999999999999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="NQs-F8-H80" firstAttribute="leading" secondItem="hPL-4n-aj9" secondAttribute="trailing" constant="15" id="6Br-cK-Y7g"/>
+                    <constraint firstItem="hPL-4n-aj9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="7pc-bS-X59"/>
+                    <constraint firstItem="FhF-d7-0DF" firstAttribute="leading" secondItem="NQs-F8-H80" secondAttribute="trailing" constant="21" id="HYN-8P-UFh"/>
+                    <constraint firstAttribute="bottom" secondItem="NQs-F8-H80" secondAttribute="bottom" constant="14" id="S1Y-H5-m1v"/>
+                    <constraint firstAttribute="bottom" secondItem="hPL-4n-aj9" secondAttribute="bottom" constant="13" id="VsA-aR-ZfW"/>
+                    <constraint firstItem="0Zv-XT-G94" firstAttribute="leading" secondItem="FhF-d7-0DF" secondAttribute="trailing" constant="-1" id="aKq-uL-uhD"/>
+                    <constraint firstAttribute="bottom" secondItem="FhF-d7-0DF" secondAttribute="bottom" constant="14" id="bYI-3j-cOY"/>
+                    <constraint firstAttribute="bottom" secondItem="0Zv-XT-G94" secondAttribute="bottom" constant="5" id="gRb-Hb-xx6"/>
+                    <constraint firstAttribute="trailing" secondItem="0Zv-XT-G94" secondAttribute="trailing" constant="11" id="wGe-a9-A54"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="titleLb" destination="FhF-d7-0DF" id="JLk-EC-8ZU"/>
+                <outlet property="typeBtn" destination="0Zv-XT-G94" id="OVd-dS-qo1"/>
+            </connections>
+            <point key="canvasLocation" x="195.6521739130435" y="255.13392857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="home_list0" width="1" height="23"/>
+        <image name="home_list1" width="23" height="24"/>
+        <image name="home_list2" width="23" height="24"/>
+    </resources>
+</document>

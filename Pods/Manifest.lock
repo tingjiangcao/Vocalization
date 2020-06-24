@@ -1,0 +1,20 @@
+PODS:
+  - IQKeyboardManager (6.5.5)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - Masonry
+
+SPEC REPOS:
+  https://gitee.com/mirrors/CocoaPods-Specs:
+    - IQKeyboardManager
+    - Masonry
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: b451ef86c05f9591b7e49ad61056b7c223458971
+
+COCOAPODS: 1.9.1

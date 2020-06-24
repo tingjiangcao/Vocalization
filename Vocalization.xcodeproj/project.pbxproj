@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF3B8C29247E8C6C005DD5B7 /* HomeAddListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3B8C27247E8C6C005DD5B7 /* HomeAddListVC.m */; };
+		DF3B8C2A247E8C6C005DD5B7 /* HomeAddListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF3B8C28247E8C6C005DD5B7 /* HomeAddListVC.xib */; };
+		DF585D27247E5598003FFDCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF585D26247E5598003FFDCD /* AppDelegate.m */; };
+		DF585D32247E559B003FFDCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF585D31247E559B003FFDCD /* Assets.xcassets */; };
+		DF585D35247E559B003FFDCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF585D33247E559B003FFDCD /* LaunchScreen.storyboard */; };
+		DF585D38247E559B003FFDCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF585D37247E559B003FFDCD /* main.m */; };
+		DF585D42247E56E0003FFDCD /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = DF585D40247E56E0003FFDCD /* UIColor+Hex.m */; };
+		DF585D45247E5734003FFDCD /* BaseNvc.m in Sources */ = {isa = PBXBuildFile; fileRef = DF585D43247E5734003FFDCD /* BaseNvc.m */; };
+		DF585D48247E5757003FFDCD /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF585D47247E5757003FFDCD /* HomeVC.m */; };
+		DF585D4C247E58AB003FFDCD /* HomeHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF585D4A247E58AB003FFDCD /* HomeHeaderCell.m */; };
+		DF585D4D247E58AB003FFDCD /* HomeHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF585D4B247E58AB003FFDCD /* HomeHeaderCell.xib */; };
+		DF585D51247E58CF003FFDCD /* HomeTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF585D4F247E58CF003FFDCD /* HomeTitleCell.m */; };
+		DF585D52247E58CF003FFDCD /* HomeTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF585D50247E58CF003FFDCD /* HomeTitleCell.xib */; };
+		DF585D56247E58E2003FFDCD /* HomeListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF585D54247E58E2003FFDCD /* HomeListCell.m */; };
+		DF585D57247E58E2003FFDCD /* HomeListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF585D55247E58E2003FFDCD /* HomeListCell.xib */; };
+		DF585D5B247E5903003FFDCD /* HomeRijiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF585D59247E5903003FFDCD /* HomeRijiCell.m */; };
+		DF585D5C247E5903003FFDCD /* HomeRijiCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF585D5A247E5903003FFDCD /* HomeRijiCell.xib */; };
+		DFBF2C22FD773DFC9118CE22 /* libPods-Vocalization.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F8F94AB409DE0355F8824C /* libPods-Vocalization.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71B857682619EF10249BE55B /* Pods-Vocalization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vocalization.debug.xcconfig"; path = "Target Support Files/Pods-Vocalization/Pods-Vocalization.debug.xcconfig"; sourceTree = "<group>"; };
+		81C85CA3DC316E197EC535EC /* Pods-Vocalization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vocalization.release.xcconfig"; path = "Target Support Files/Pods-Vocalization/Pods-Vocalization.release.xcconfig"; sourceTree = "<group>"; };
+		C7F8F94AB409DE0355F8824C /* libPods-Vocalization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Vocalization.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3B8C26247E8C6C005DD5B7 /* HomeAddListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeAddListVC.h; sourceTree = "<group>"; };
+		DF3B8C27247E8C6C005DD5B7 /* HomeAddListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeAddListVC.m; sourceTree = "<group>"; };
+		DF3B8C28247E8C6C005DD5B7 /* HomeAddListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeAddListVC.xib; sourceTree = "<group>"; };
+		DF585D22247E5598003FFDCD /* 发声助手.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "发声助手.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF585D25247E5598003FFDCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF585D26247E5598003FFDCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF585D31247E559B003FFDCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF585D36247E559B003FFDCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF585D37247E559B003FFDCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF585D40247E56E0003FFDCD /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		DF585D41247E56E0003FFDCD /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		DF585D43247E5734003FFDCD /* BaseNvc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNvc.m; sourceTree = "<group>"; };
+		DF585D44247E5734003FFDCD /* BaseNvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNvc.h; sourceTree = "<group>"; };
+		DF585D46247E5757003FFDCD /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		DF585D47247E5757003FFDCD /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		DF585D49247E58AB003FFDCD /* HomeHeaderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeHeaderCell.h; sourceTree = "<group>"; };
+		DF585D4A247E58AB003FFDCD /* HomeHeaderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeHeaderCell.m; sourceTree = "<group>"; };
+		DF585D4B247E58AB003FFDCD /* HomeHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeHeaderCell.xib; sourceTree = "<group>"; };
+		DF585D4E247E58CF003FFDCD /* HomeTitleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTitleCell.h; sourceTree = "<group>"; };
+		DF585D4F247E58CF003FFDCD /* HomeTitleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTitleCell.m; sourceTree = "<group>"; };
+		DF585D50247E58CF003FFDCD /* HomeTitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTitleCell.xib; sourceTree = "<group>"; };
+		DF585D53247E58E2003FFDCD /* HomeListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeListCell.h; sourceTree = "<group>"; };
+		DF585D54247E58E2003FFDCD /* HomeListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeListCell.m; sourceTree = "<group>"; };
+		DF585D55247E58E2003FFDCD /* HomeListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeListCell.xib; sourceTree = "<group>"; };
+		DF585D58247E5903003FFDCD /* HomeRijiCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeRijiCell.h; sourceTree = "<group>"; };
+		DF585D59247E5903003FFDCD /* HomeRijiCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeRijiCell.m; sourceTree = "<group>"; };
+		DF585D5A247E5903003FFDCD /* HomeRijiCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeRijiCell.xib; sourceTree = "<group>"; };
+		DF585D5D247E635E003FFDCD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF5EC382248123DE00A4CB22 /* Vocalization.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Vocalization.entitlements; sourceTree = "<group>"; };
+		DF9D050824800E330072B4DC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF585D1F247E5598003FFDCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBF2C22FD773DFC9118CE22 /* libPods-Vocalization.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D320AFA9B6E793529FE7538A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71B857682619EF10249BE55B /* Pods-Vocalization.debug.xcconfig */,
+				81C85CA3DC316E197EC535EC /* Pods-Vocalization.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DF585D19247E5598003FFDCD = {
+			isa = PBXGroup;
+			children = (
+				DF585D24247E5598003FFDCD /* Vocalization */,
+				DF585D23247E5598003FFDCD /* Products */,
+				D320AFA9B6E793529FE7538A /* Pods */,
+				E7EBF80769E64365B2B1F0ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF585D23247E5598003FFDCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF585D22247E5598003FFDCD /* 发声助手.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF585D24247E5598003FFDCD /* Vocalization */ = {
+			isa = PBXGroup;
+			children = (
+				DF5EC382248123DE00A4CB22 /* Vocalization.entitlements */,
+				DF585D37247E559B003FFDCD /* main.m */,
+				DF585D36247E559B003FFDCD /* Info.plist */,
+				DF585D25247E5598003FFDCD /* AppDelegate.h */,
+				DF585D26247E5598003FFDCD /* AppDelegate.m */,
+				DF585D31247E559B003FFDCD /* Assets.xcassets */,
+				DF585D33247E559B003FFDCD /* LaunchScreen.storyboard */,
+				DF585D3E247E564A003FFDCD /* Classes */,
+			);
+			path = Vocalization;
+			sourceTree = "<group>";
+		};
+		DF585D3E247E564A003FFDCD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DF585D44247E5734003FFDCD /* BaseNvc.h */,
+				DF585D43247E5734003FFDCD /* BaseNvc.m */,
+				DF585D46247E5757003FFDCD /* HomeVC.h */,
+				DF585D47247E5757003FFDCD /* HomeVC.m */,
+				DF585D49247E58AB003FFDCD /* HomeHeaderCell.h */,
+				DF585D4A247E58AB003FFDCD /* HomeHeaderCell.m */,
+				DF585D4B247E58AB003FFDCD /* HomeHeaderCell.xib */,
+				DF585D4E247E58CF003FFDCD /* HomeTitleCell.h */,
+				DF585D4F247E58CF003FFDCD /* HomeTitleCell.m */,
+				DF585D50247E58CF003FFDCD /* HomeTitleCell.xib */,
+				DF585D53247E58E2003FFDCD /* HomeListCell.h */,
+				DF585D54247E58E2003FFDCD /* HomeListCell.m */,
+				DF585D55247E58E2003FFDCD /* HomeListCell.xib */,
+				DF585D58247E5903003FFDCD /* HomeRijiCell.h */,
+				DF585D59247E5903003FFDCD /* HomeRijiCell.m */,
+				DF585D5A247E5903003FFDCD /* HomeRijiCell.xib */,
+				DF3B8C26247E8C6C005DD5B7 /* HomeAddListVC.h */,
+				DF3B8C27247E8C6C005DD5B7 /* HomeAddListVC.m */,
+				DF3B8C28247E8C6C005DD5B7 /* HomeAddListVC.xib */,
+				DF585D3F247E56E0003FFDCD /* Tool */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DF585D3F247E56E0003FFDCD /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				DF585D41247E56E0003FFDCD /* UIColor+Hex.h */,
+				DF585D40247E56E0003FFDCD /* UIColor+Hex.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		E7EBF80769E64365B2B1F0ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7F8F94AB409DE0355F8824C /* libPods-Vocalization.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF585D21247E5598003FFDCD /* Vocalization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF585D3B247E559B003FFDCD /* Build configuration list for PBXNativeTarget "Vocalization" */;
+			buildPhases = (
+				D9B655D1D347543D1E517912 /* [CP] Check Pods Manifest.lock */,
+				DF585D1E247E5598003FFDCD /* Sources */,
+				DF585D1F247E5598003FFDCD /* Frameworks */,
+				DF585D20247E5598003FFDCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vocalization;
+			productName = Vocalization;
+			productReference = DF585D22247E5598003FFDCD /* 发声助手.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF585D1A247E5598003FFDCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = caotingjiang;
+				TargetAttributes = {
+					DF585D21247E5598003FFDCD = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = DF585D1D247E5598003FFDCD /* Build configuration list for PBXProject "Vocalization" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = DF585D19247E5598003FFDCD;
+			productRefGroup = DF585D23247E5598003FFDCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF585D21247E5598003FFDCD /* Vocalization */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF585D20247E5598003FFDCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF585D35247E559B003FFDCD /* LaunchScreen.storyboard in Resources */,
+				DF585D52247E58CF003FFDCD /* HomeTitleCell.xib in Resources */,
+				DF3B8C2A247E8C6C005DD5B7 /* HomeAddListVC.xib in Resources */,
+				DF585D57247E58E2003FFDCD /* HomeListCell.xib in Resources */,
+				DF585D32247E559B003FFDCD /* Assets.xcassets in Resources */,
+				DF585D5C247E5903003FFDCD /* HomeRijiCell.xib in Resources */,
+				DF585D4D247E58AB003FFDCD /* HomeHeaderCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D9B655D1D347543D1E517912 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vocalization-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF585D1E247E5598003FFDCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF585D27247E5598003FFDCD /* AppDelegate.m in Sources */,
+				DF3B8C29247E8C6C005DD5B7 /* HomeAddListVC.m in Sources */,
+				DF585D5B247E5903003FFDCD /* HomeRijiCell.m in Sources */,
+				DF585D42247E56E0003FFDCD /* UIColor+Hex.m in Sources */,
+				DF585D45247E5734003FFDCD /* BaseNvc.m in Sources */,
+				DF585D48247E5757003FFDCD /* HomeVC.m in Sources */,
+				DF585D38247E559B003FFDCD /* main.m in Sources */,
+				DF585D51247E58CF003FFDCD /* HomeTitleCell.m in Sources */,
+				DF585D56247E58E2003FFDCD /* HomeListCell.m in Sources */,
+				DF585D4C247E58AB003FFDCD /* HomeHeaderCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF585D33247E559B003FFDCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF585D5D247E635E003FFDCD /* en */,
+				DF9D050824800E330072B4DC /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF585D39247E559B003FFDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF585D3A247E559B003FFDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF585D3C247E559B003FFDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71B857682619EF10249BE55B /* Pods-Vocalization.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Vocalization/Vocalization.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZ4X8QP5N5;
+				INFOPLIST_FILE = Vocalization/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitfusion.ios.Vocalization;
+				PRODUCT_NAME = "发声助手";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF585D3D247E559B003FFDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81C85CA3DC316E197EC535EC /* Pods-Vocalization.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Vocalization/Vocalization.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZ4X8QP5N5;
+				INFOPLIST_FILE = Vocalization/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitfusion.ios.Vocalization;
+				PRODUCT_NAME = "发声助手";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF585D1D247E5598003FFDCD /* Build configuration list for PBXProject "Vocalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF585D39247E559B003FFDCD /* Debug */,
+				DF585D3A247E559B003FFDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF585D3B247E559B003FFDCD /* Build configuration list for PBXNativeTarget "Vocalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF585D3C247E559B003FFDCD /* Debug */,
+				DF585D3D247E559B003FFDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF585D1A247E5598003FFDCD /* Project object */;
+}

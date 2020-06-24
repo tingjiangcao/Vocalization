@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="346" id="KGk-i7-Jjw" customClass="HomeRijiCell">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="420"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="374" height="420"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pwd-ek-Pnv">
+                        <rect key="frame" x="0.0" y="24" width="374" height="366"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="home_beiwanglu" translatesAutoresizingMaskIntoConstraints="NO" id="JQN-6m-mpN">
+                                <rect key="frame" x="18" y="17" width="3" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="3" id="Cfc-VN-hNh"/>
+                                    <constraint firstAttribute="height" constant="20" id="Otj-yV-mHF"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="home_headershang" translatesAutoresizingMaskIntoConstraints="NO" id="kZo-lJ-IDX">
+                                <rect key="frame" x="20" y="49" width="20" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="bJv-Xa-nL2"/>
+                                    <constraint firstAttribute="width" constant="20" id="fKR-Mn-sqU"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="home_headerxia" translatesAutoresizingMaskIntoConstraints="NO" id="AA2-KY-trl">
+                                <rect key="frame" x="338" y="339" width="20" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="MHx-mB-7sr"/>
+                                    <constraint firstAttribute="width" constant="20" id="qjZ-J9-nKq"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="备忘录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6Z-pO-nME">
+                                <rect key="frame" x="42" y="13" width="67" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="67" id="JI7-Ab-2Sr"/>
+                                    <constraint firstAttribute="height" constant="27" id="t59-LG-SI6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" red="0.99607843137254903" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xrq-m8-iOB">
+                                <rect key="frame" x="23" y="73" width="325" height="266"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">      植树节到了，阳春三月，风和日丽，春姑娘迈着轻盈的步伐来到人间。大地万物复苏：小草在土里睡腻了，情不自禁地探出头来;一缕阳光照射过来，花儿们绽开了迷人的笑脸……
+
+　　我和同学们在老师的带领下来到了学校外附近的一片空地上。刚来到空地，我们都惊呆了，眼前是一棵棵不同种类的小树苗倚着墙角。</string>
+                                <color key="textColor" white="0.0" alpha="0.69811643835616444" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="AA2-KY-trl" secondAttribute="trailing" constant="16" id="1ez-EM-4X1"/>
+                            <constraint firstItem="AA2-KY-trl" firstAttribute="leading" secondItem="xrq-m8-iOB" secondAttribute="trailing" constant="-10" id="5Dt-j8-35x"/>
+                            <constraint firstItem="kZo-lJ-IDX" firstAttribute="leading" secondItem="pwd-ek-Pnv" secondAttribute="leading" constant="20" id="6Qi-uu-6bt"/>
+                            <constraint firstItem="JQN-6m-mpN" firstAttribute="top" secondItem="pwd-ek-Pnv" secondAttribute="top" constant="17" id="I7x-Fn-CGu"/>
+                            <constraint firstItem="xrq-m8-iOB" firstAttribute="leading" secondItem="pwd-ek-Pnv" secondAttribute="leading" constant="23" id="LgD-f2-W5g"/>
+                            <constraint firstItem="kZo-lJ-IDX" firstAttribute="top" secondItem="pwd-ek-Pnv" secondAttribute="top" constant="49" id="OdG-X8-9jw"/>
+                            <constraint firstItem="c6Z-pO-nME" firstAttribute="leading" secondItem="JQN-6m-mpN" secondAttribute="trailing" constant="21" id="b4o-ek-9Zm"/>
+                            <constraint firstAttribute="height" constant="366" id="dME-H7-2a3"/>
+                            <constraint firstAttribute="bottom" secondItem="xrq-m8-iOB" secondAttribute="bottom" constant="27" id="hFc-o9-mBA"/>
+                            <constraint firstItem="JQN-6m-mpN" firstAttribute="leading" secondItem="pwd-ek-Pnv" secondAttribute="leading" constant="18" id="mjH-LV-mIW"/>
+                            <constraint firstItem="xrq-m8-iOB" firstAttribute="top" secondItem="c6Z-pO-nME" secondAttribute="bottom" constant="33" id="qKK-tS-Tdm"/>
+                            <constraint firstAttribute="bottom" secondItem="AA2-KY-trl" secondAttribute="bottom" constant="-23" id="ter-et-qAG"/>
+                            <constraint firstItem="c6Z-pO-nME" firstAttribute="top" secondItem="pwd-ek-Pnv" secondAttribute="top" constant="13" id="zKU-iJ-P7A"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="pwd-ek-Pnv" secondAttribute="bottom" constant="30" id="3Nv-zt-HIa"/>
+                    <constraint firstItem="pwd-ek-Pnv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="9CU-YO-bcb"/>
+                    <constraint firstAttribute="trailing" secondItem="pwd-ek-Pnv" secondAttribute="trailing" id="Twu-aI-dcs"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="bgView" destination="pwd-ek-Pnv" id="pct-l9-m4P"/>
+                <outlet property="contentLb" destination="xrq-m8-iOB" id="dfD-fg-tLc"/>
+            </connections>
+            <point key="canvasLocation" x="155.07246376811597" y="253.79464285714283"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="home_beiwanglu" width="3" height="20"/>
+        <image name="home_headershang" width="20" height="50"/>
+        <image name="home_headerxia" width="20" height="50"/>
+    </resources>
+</document>
